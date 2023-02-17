@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Box model</h1>
+    <p>A grande maioria dos elementos HTML são como caixas. Elas armazenam conteúdos e até outras caixas.</p>
+    <p>Exemplo de caixa:</p>
+    <div class="caixa">.caixa { <br> width: 200px; <br> height: 200px; <br> padding: 10px; <br> margin: 5px; <br> border: 2px solid black; <br> outline: 3px dashed blue; <br> }</div>
+    <p>Por padrão toda caixa é composta somente pelo conteúdo (content). Todo conteúdo possui uma largura (width) e uma altura (height), que chamamos de box-size. <p>Depois do conteúdo e do tamanho, podemos definir uma borda. Entre a borda e o conteúdo, temos padding e margin e entre a margin e a borda, temos o contorno (outline).</p>
+
+    <h2>Caixa block-level</h2>
+    <p>Um elemento block-level sempre começa em uma nova linha e ocupa a largura total do elemento onde ele está contido.</p>
+    <p>Exemplos de elementos block-level:</p>
+    <ul class="borda">
+        <li>&lt;address&gt;</li>
+        <li>&lt;div&gt;</li>
+        <li>&lt;dl&gt;</li>
+        <li>&lt;aside&gt;</li>
+        <li>&lt;section&gt;</li>
+        <li>&lt;table&gt;</li>
+        <li>&lt;dd&gt;</li>
+        <li>&lt;article&gt;</li>
+        <li>&lt;li&gt;</li>
+        <li>&lt;main&gt;</li>
+        <li>&lt;hr&gt;</li>
+        <li>&lt;ul&gt;</li>
+        <li>&lt;video&gt;</li>
+        <li>&lt;p&gt;</li>
+        <li>&lt;footer&gt;</li>
+    </ul>
+
+    <h2>Caixa inline-level</h2>
+    <p>Um elemento inline-level não vai começar em uma nova linha, mas onde ele foi definido. E a largura vai ocupar apenas o tamanho relativo ao seu conteúdo.</p>
+    <p>Exemplos de elementos inline-level:</p>
+    <ul class="borda">
+        <li>&lt;img&gt;</li>
+        <li>&lt;a&gt;</li>
+        <li>&lt;button&gt;</li>
+        <li>&lt;em&gt;</li>
+        <li>&lt;abbr&gt;</li>
+        <li>&lt;br&gt;</li>
+        <li>&lt;input&gt;</li>
+        <li>&lt;label&gt;</li>
+        <li>&lt;textarea&gt;</li>
+        <li>&lt;select&gt;</li>
+        <li>&lt;tt&gt;</li>
+        <li>&lt;strong&gt;</li>
+        <li>&lt;code&gt;</li>
+        <li>&lt;span&gt;</li>
+        <li>&lt;var&gt;</li>
+    </ul>
+</body>
+</html>
